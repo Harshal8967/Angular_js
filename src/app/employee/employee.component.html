@@ -1,0 +1,18 @@
+<h2>Employee Table</h2>
+  <table border = "2px">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Salary</th>
+      <th>Department/th>
+    </tr>
+  </thead>
+
+    <tr *ngFor="let Emp of employee">
+      <td>{{Emp.Id}}</td>
+      <td>{{Emp.Name}}</td>
+      <td>{{Emp.Salary}}</td>
+      <td>{{Emp.Department}}</td>
+    </tr>
+  </table>
